@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{Perceptron-Based Learning Tool: Project Proposal}
+\author{
+    S.A.R.R. Suraweeraarachchi (E/19/393) \\
+    M.H.P. Thiwanka (E/19/407) \\
+    L.M.L.M. Senevirathne (E/19/365) \\
+    R.A.R.S Jayasekara (E/19/159) \\
+    J.K. Wanasinghe (E/20/420)
+}
+\date{January 27, 2025}
+
+\begin{document}
+
+\maketitle
+
+\section*{Course Title}
+CO542 Neural Networks and Fuzzy Systems
+
+\section*{Project Domain and Research Proposal}
+This is the Project Domain and Research Proposal for Milestone 1.
+
+\section{Goal}
+The primary goal of this project is to identify a suitable domain and propose an application using neural networks. The focus is on developing a hardware-based learning tool to visualize the working of a perceptron.
+
+\section{Problem Definition}
+Understanding the internal workings of neural networks can be challenging, especially for beginners. Traditional software-based implementations do not provide an intuitive way to grasp the learning process. This project addresses the need for a tangible, hardware-based visualization tool that demonstrates how a perceptron updates its weights and makes decisions.
+
+\section{Scope}
+The project is designed as an educational tool for students and researchers interested in neural networks. It will focus on:
+
+\begin{itemize}
+    \item Implementing a single-layer perceptron with three numerical inputs.
+    \item Using an Arduino-based system to represent weight adjustments in real-time.
+    \item Visualizing learning through LED indicators and variable resistors.
+    \item Providing a mobile and accessible demonstration setup for lecture halls and workshops.
+\end{itemize}
+
+\section{Justification for Using Perceptrons}
+Perceptrons are the simplest form of artificial neural networks and serve as a foundation for more complex models. They are suitable for binary classification tasks and provide an effective way to demonstrate weight adjustments through hands-on interaction. Using a perceptron allows for real-time visualization, making it easier to understand core concepts like weighted summation, activation functions, and training iterations.
+
+\section{Literature Review}
+The perceptron algorithm, introduced by Rosenblatt in 1958, is one of the earliest machine learning models used for classification tasks. Traditional perceptron implementations are software-based, but hardware-based educational tools have been explored in recent years. 
+
+Several research studies and open-source projects have demonstrated the feasibility of implementing perceptrons using microcontrollers like Arduino. These projects often use LEDs, voltage-sensitive components, and interactive visualizations to illustrate neural network concepts. Notable examples include:
+
+\begin{itemize}
+    \item Arduino-based Perceptron Simulations : These use microcontrollers to process inputs and activate LEDs based on learned weights.
+    \item Analog Circuit Perceptrons : Resistor networks are used to model weight adjustments in learning.
+    \item Educational AI Tools : Some projects integrate microcontrollers with software simulations to teach AI fundamentals.
+\end{itemize}
+
+\section{High-Level Design of the Proposed Model}
+
+The perceptron model for this project follows a single-layer architecture with three main inputs. The architecture consists of:
+
+\begin{itemize}
+    \item \textbf{Input Layer}: Three numerical inputs (e.g., temperature, humidity, pressure)
+    \item \textbf{Weights}: Represented by adjustable resistors or stored in an Arduino
+    \item \textbf{Summation Function}: Computes weighted sum of inputs
+    \item \textbf{Activation Function}: Step function (ON/OFF) or sigmoid function
+    \item \textbf{Output Layer}: LED or display indicating classification
+\end{itemize}
+
+\subsection{Block Diagram}
+\begin{center}
+    % \includegraphics[width=0.8\textwidth]{perceptron_diagram.png}  % Placeholder for block diagram
+\end{center}
+
+The model will be implemented using an Arduino microcontroller to handle computations, while LEDs and resistors provide a physical visualization of learning. The system will train using predefined input-output pairs and adjust weights accordingly. 
+
+\section{Conclusion}
+This hardware-based perceptron visualization tool will serve as an educational aid for understanding fundamental neural network concepts. The implementation will include Arduino integration, LED-based weight representation, and interactive real-time training feedback.
+
+\end{document}
