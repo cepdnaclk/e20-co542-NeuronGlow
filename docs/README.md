@@ -9,7 +9,7 @@ title:
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Neuron Glow
 
 ---
 
@@ -20,9 +20,11 @@ This is a sample image, to show how to add images to your page. To learn more op
  -->
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/19/393, S.A.R.R. Suraweeraarachchi, [email](mailto:e19393@eng.pdn.ac.lk)
+-  E/19/407, M.H.P. Thiwanka, [email](mailto:e19407@eng.pdn.ac.lk)
+-  E/19/365, L.M.L.M. Senevirathne, [email](mailto:e19365@eng.pdn.ac.lk)
+-  E/19/407, R.A.R.S Jayasekara, [email](mailto:e19159@eng.pdn.ac.lk)
+-  E/20/420, J.K. Wanasinghe, [email](mailto:e20420@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -33,7 +35,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Introduction
 
- description of the real world problem and solution, impact
+ A tangible, hardware-based visualization tool that demonstrates how a perceptron updates its weights and makes decisions.
 
 ## Other Sub Topics
 
