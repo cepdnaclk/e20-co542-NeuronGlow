@@ -5,6 +5,7 @@ ___
 A Project completed as a requirement for **CO542: Neural Networks and Fuzzy Systems**
 
 Group Name : FuzzBusters
+
 Team Members :
 * S.A.R.R. Suraweeraarachchi (E/19/393)
 * M.H.P. Thiwanka (E/19/407)
