@@ -1,7 +1,20 @@
 ___
-# DELETE THIS INSTRUCTIONS AND ADD A SHORT INTRODUCTION ABOUT YOUR PROJECT
+# “NeuronGlow”: A Perceptron Learning Tool
 ___
 
-## Please refer the instructions in below URL:
+A Project completed as a requirement for **CO542: Neural Networks and Fuzzy Systems**
 
-https://projects.ce.pdn.ac.lk/docs/how-to-add-a-project
+Group Name : FuzzBusters
+Team Members :
+* S.A.R.R. Suraweeraarachchi (E/19/393)
+* M.H.P. Thiwanka (E/19/407)
+* L.M.L.M. Senevirathne (E/19/365)
+* R.A.R.S Jayasekara (E/19/159)
+* J.K. Wanasinghe (E/20/420)
+
+The goal of this project is to develop a hardware-based learning tool that helps students, researchers, and learners of all ages understand how a perceptron works. 
+
+This tool uses an Arduino-based system with LEDs and potentiometers to provide a tangible, real-time visualization of the perceptron’s operations. 
+
+By allowing users to interact with the system, they will be able to observe how the perceptron updates its weights, applies activation functions, and makes classification decisions based on the input data.
+
